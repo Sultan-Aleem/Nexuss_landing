@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: var(--dark-bg);
+  --color-hover-lime: var(--hover-lime);
+  --color-lime: var(--lime);
+  --color-ash: var(--ash);
+  --color-ink: var(--ink);
+
+  --font-PlusJakatara: var(--Plusjakatara);
+  --font-jetbrains: var(--jetbrains);
+}
+
+@layer base {
+  :root {
+    --dark-bg: #1a1d1a;
+    --hover-lime: #282f18;
+    --lime: #c6ff00;
+    --ash: #33332e;
+    --ink: #0b0c0d;
+
+    --font-Plusjakatara: "Plusjakatara", sans-serif;
+    --font-jetbrains: "JetBrains", monospace;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  @font-face {
+    font-family: "Plusjakatara";
+    src: url("/src/assets/Fonts/PlusJakartaSans.ttf") format("truetype");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "JetBrains";
+    src: url("/src/assets/Fonts/JetBrains.ttf") format("truetype");
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+@utility grid-lines {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.9) 3px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 3px, transparent 1px);
+  background-size: 80px 60px;
+}
