@@ -37,13 +37,13 @@ Nexus is a frontend practice project recreated from a website design found on [T
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/Sultan-Aleem/Nexuss_landing.git
    ```
 
 2. Navigate into the project directory:
 
    ```bash
-   cd nexus-landing-page
+   cd Nexuss_landing
    ```
 
 3. Install dependencies:
