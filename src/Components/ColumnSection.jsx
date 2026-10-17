@@ -53,7 +53,7 @@ const ColumnSection = ({ sectionRef }) => {
                   <span className="font-jetbrains text-xs text-ash/70">
                     {col.id}
                   </span>
-                  <span className="font-PlusJakatara text-sm font-semibold uppercase tracking-widest text-black  lg:[writing-mode:vertical-rl]">
+                  <span className="font-PlusJakatara text-sm font-semibold uppercase tracking-widest text-black  lg:[writing-mode:vertical-rl] lg:text-3xl lg:font-bold">
                     {col.label}
                   </span>
                   <span className="h-1.5 w-1.5 rounded-full bg-lime block" />
